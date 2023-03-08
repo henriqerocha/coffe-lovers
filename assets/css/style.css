@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 8vh;
+    background-color: #604829;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.topo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 13%;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+.menu-list li a{
+    text-decoration: none;
+    color: #c4a47c;
+    margin: 0 10px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 3px 4px #000;
+    font-weight: bold;
+}
+
+/* Banner */
+#banner{
+    background-image: url('../images/parallax-imagem1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner h1{
+    color: #fff;
+    font-size: 5em;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+}
